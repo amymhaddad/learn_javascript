@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.calc {
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+.screen {
+    text-align: right;
+    font-size: 30px;
+}
+
+.calc-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.number {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: gray;
+    color: black
+}
+
+.number:hover {
+    background-color: wheat;
+}
+
+.number:active {
+    color: navy;
+}
+
+
+.clear {
+    width: 50%;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: gray;
+    color: black
+}
+
+.triple {
+    width: 75%; 
+}
+
+.operation {
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: gray;
+    color: black;
+}
+
+.double {
+    width: 50%;
+}
+
+.double:hover {
+    background-color: wheat;
+}
+
+.double:active {
+    color: navy;
+}
+
+.operation:hover {
+    background-color: wheat;
+}
+
+.operation:hover {
+    background-color: wheat;
+}
+
+
+.operation:last-child {
+    background-color: orange;
+    color: white;
+}
+
+.operation:last-child:hover {
+    background-color: wheat;
+}
